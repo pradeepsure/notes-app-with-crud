@@ -7,12 +7,11 @@ View - 1
 |    |__Header
 |    |    |__SearchBar
 |    |__NotesContainer
+|    |__NoteTaker
 |    |   |__GridView
-|    |   |     |__NoteTaker
-|    |   |     |__Note
+|    |   |    |__Note
 |    |   |__ListView
-|    |   |     |__NoteTaker
-|    |   |     |__Note
+|    |   |    |__Note
 View - 2
 |__EditNote
 ```
