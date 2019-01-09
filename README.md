@@ -4,14 +4,16 @@
 ```bash
 View - 1
 |__ NotesApp
-|    |__Header
-|    |    |__SearchBar
-|    |__NotesContainer
-|    |__NoteTaker
-|    |   |__GridView
-|    |   |    |__Note
-|    |   |__ListView
-|    |   |    |__Note
+|  |__Header
+|  |  |__SearchBar
+|  |__NotesContainer
+|  |__NoteTaker
+|  |__GridView
+|  |  |__Note
+|  |  |__Note ...
+|  |__ListView
+|  |  |__Note
+|  |  |__Note ...
 View - 2
 |__EditNote
 ```
