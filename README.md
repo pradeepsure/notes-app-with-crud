@@ -17,6 +17,18 @@ View - 1
 View - 2
 |__EditNote
 ```
+## Assignment PART-1
+
+Create a view similar to keep.google.com Dashboard Page. Persist the Notes using JSON-SERVER.
+
+## Steps to Setup the project
+1. Fork this repository into your personal workspace.
+2. Clone the forked repository.
+3. run `npm install`
+4. run `npm run start-json-server` (NOTE: json-server is running on PORT 8080 and NOT 3000)
+5. run `npm run start`
+6. open browser and type (`localhost:3000`)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
