@@ -1,42 +1,15 @@
-import React, { Component } from 'react';
-import { Card, CardHeader, CardContent, CardActions, withStyles } from '@material-ui/core';
-import EditIcon from '@material-ui/icons/Edit';
-import IconButton from '@material-ui/core/IconButton';
-import DeleteIcon from '@material-ui/icons/DeleteTwoTone';
-import { Link } from 'react-router-dom';
+import React, { Fragment } from 'react';
+import Typography from '@material-ui/core/Typography';
 
-const styles = theme => ({
-    deleteIcon: {
-        justifyContent: 'flex-end',
-    }
-});
+const Note = (props) => (
+    <Fragment>
+        <Typography variant="h5" component="h3">
+            {props.myNotes.noteTitle}
+        </Typography>
+        <Typography component="p">
+            {props.myNotes.noteDescription}
+        </Typography>
+    </Fragment>
+);
 
-class Note extends Component {
-    render() {
-        const { classes, handleRemoveNote, note } = this.props;
-        return (
-            <Card>
-                <CardHeader
-                    title={note.noteTitle}
-                    action={
-                        <Link to={`edit-note/${note.id}`}>
-                            <IconButton>
-                            <EditIcon variant="contained" color="primary" size="small" />
-                            </IconButton>
-                        </Link>
-                    }
-                />   
-                <CardContent>
-                    {note.noteDescription}
-                </CardContent>
-                <CardActions className={classes.deleteIcon}>
-                    <IconButton onClick={handleRemoveNote.bind(null, note.id)}>
-                        <DeleteIcon color="error"/>
-                    </IconButton>
-                </CardActions>
-            </Card>
-        );
-    }
-}
-
-export default withStyles(styles)(Note);
+export default Note;

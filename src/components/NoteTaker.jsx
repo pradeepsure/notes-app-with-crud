@@ -8,7 +8,6 @@ import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogTitle from '@material-ui/core/DialogTitle';
-
 const styles = theme => ({
     fab: {
         margin: theme.spacing.unit * 2,
@@ -20,7 +19,6 @@ const styles = theme => ({
         right: theme.spacing.unit * 3,
     },
 });
-
 class NoteTaker extends Component {
     constructor(props) {
         super(props);
@@ -35,11 +33,9 @@ class NoteTaker extends Component {
         this.handleNoteTitleChange = this.handleNoteTitleChange.bind(this);
         this.handleNoteDescriptionChange = this.handleNoteDescriptionChange.bind(this);
     }
-
     handleClickOpen() {
         this.setState({ open: true });
     }
-
     handleClose() {
         this.setState({ 
             open: false,
@@ -47,15 +43,12 @@ class NoteTaker extends Component {
             noteDescription: '',
         });
     }
-
     handleNoteTitleChange(event) {
         this.setState({ noteTitle: event.target.value });
     }
-
     handleNoteDescriptionChange(event) {
         this.setState({ noteDescription: event.target.value });
     }
-
     handleAddNote() {
         const newNote = {
             id: Math.random() * 2342342,
@@ -65,7 +58,6 @@ class NoteTaker extends Component {
         this.props.handleAddNote(newNote);
         this.handleClose();
     }
-
     render() {
         const { classes } = this.props;
         return (
@@ -121,5 +113,4 @@ class NoteTaker extends Component {
         );
     }
 }
-
 export default withStyles(styles)(NoteTaker);
