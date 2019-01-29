@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render EditNote component correctly 1`] = `
+<WithStyles(Dialog)
+  aria-labelledby="Edit note form"
+  onClose={[Function]}
+  open={true}
+>
+  <WithStyles(DialogTitle)
+    id="Edit note form"
+  >
+    Edit Note
+  </WithStyles(DialogTitle)>
+  <WithStyles(DialogContent)>
+    <TextField
+      autoFocus={true}
+      fullWidth={true}
+      id="note title"
+      label="Note Title"
+      margin="dense"
+      onChange={[Function]}
+      required={false}
+      select={false}
+      type="text"
+      value="Flipkart Sale"
+      variant="standard"
+    />
+    <TextField
+      fullWidth={true}
+      id="note description"
+      label="Note Description"
+      margin="dense"
+      onChange={[Function]}
+      required={false}
+      select={false}
+      type="text"
+      value="Electronics sale upto 50% off"
+      variant="standard"
+    />
+  </WithStyles(DialogContent)>
+  <WithStyles(DialogActions)>
+    <WithStyles(Button)
+      color="primary"
+      onClick={[Function]}
+    >
+      Cancel
+    </WithStyles(Button)>
+    <WithStyles(Button)
+      color="primary"
+      onClick={[Function]}
+    >
+      Update
+    </WithStyles(Button)>
+  </WithStyles(DialogActions)>
+</WithStyles(Dialog)>
+`;

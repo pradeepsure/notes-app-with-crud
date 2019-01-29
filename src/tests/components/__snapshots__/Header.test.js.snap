@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Header component....  1`] = `
+<Header
+  classes={
+    Object {
+      "grow": "Header-grow-2",
+      "menuButton": "Header-menuButton-3",
+      "root": "Header-root-1",
+      "title": "Header-title-4",
+    }
+  }
+/>
+`;

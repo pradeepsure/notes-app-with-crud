@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import { withStyles } from '@material-ui/core/styles';
-import EditIcon from '@material-ui/icons/EventNote';
-import IconButton from '@material-ui/core/IconButton';
 import AssignmentIcon from '@material-ui/icons/Assignment';
 import Typography from '@material-ui/core/Typography';
 import SearchBar from './SearchBar';

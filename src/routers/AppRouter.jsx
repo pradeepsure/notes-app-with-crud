@@ -4,7 +4,6 @@ import NotesApp from '../components/NotesApp';
 import EditNote from '../components/EditNote';
 import WelcomePage from '../components/WelcomePage';
 import Header from '../components/Header';
-import { red } from '@material-ui/core/colors';
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
 import createHistory from 'history/createBrowserHistory';
 import yellow from '@material-ui/core/colors/yellow';

@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer, MDBJumbotron } from "mdbreact";
+import { MDBView, MDBMask } from "mdbreact";
 
 
 import takeANote from '../images/takenote.jpg';

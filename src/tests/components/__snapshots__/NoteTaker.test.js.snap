@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render NoteTaker component correctly 1`] = `
+<NoteTaker
+  addNote={[MockFunction]}
+  classes={
+    Object {
+      "absolute": "NoteTaker-absolute-2",
+      "fab": "NoteTaker-fab-1",
+    }
+  }
+/>
+`;

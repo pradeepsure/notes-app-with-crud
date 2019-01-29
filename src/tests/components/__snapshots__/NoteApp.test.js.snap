@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render NotesApp component with notes correctly 1`] = `
+<WithStyles(Grid)
+  container={true}
+  spacing={8}
+>
+  <WithStyles(Grid)
+    item={true}
+    xs={12}
+  >
+    <WithStyles(NoteTaker) />
+  </WithStyles(Grid)>
+  <WithStyles(Grid)
+    item={true}
+    xs={12}
+  >
+    <NotesContainer
+      notes={
+        Array [
+          Object {
+            "id": 1,
+            "noteDescription": "cashback upto 20 Rupees hurry",
+            "noteTitle": "paytmDiscount",
+          },
+        ]
+      }
+    />
+  </WithStyles(Grid)>
+</WithStyles(Grid)>
+`;

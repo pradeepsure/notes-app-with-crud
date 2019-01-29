@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WelcomePage component testing!!! 1`] = `
+<Fragment>
+  <t
+    cascade={false}
+    className=""
+    hover={false}
+    rounded={false}
+    src=""
+    tag="div"
+    waves={false}
+    zoom={false}
+  >
+    <img
+      alt="First slide"
+      className="d-block w-50"
+      src="takenote.jpg"
+    />
+    <t
+      className=""
+      overlay="black-light"
+      pattern=""
+      tag="div"
+    />
+  </t>
+</Fragment>
+`;
